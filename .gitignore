@@ -1,0 +1,10 @@
+# Go
+bin/
+*.exe
+*.out
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
