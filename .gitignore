@@ -1,10 +1,13 @@
-# Go
-bin/
+# binaries
 *.exe
 *.out
 
-# OS
-.DS_Store
+# go build
+/bin/
+/dist/
 
-# Editor
-.vscode/
+# env files
+.env
+
+# mac
+.DS_Store
