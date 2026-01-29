@@ -1,3 +1,11 @@
+## 🚧 Project Status
+
+This project is currently **under active development**.
+
+Core features like authentication, rate limiting, reverse proxying, and graceful shutdown are implemented.  
+Additional improvements such as **Redis-backed distributed rate limiting, configuration cleanup, and documentation enhancements** are in progress.
+
+
 # API Gateway & Distributed Rate Limiter
 
 A backend system designed to act as a centralized API Gateway for multiple services, providing authentication, request routing, and traffic control using a Redis-backed distributed rate limiting mechanism.
