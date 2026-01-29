@@ -77,3 +77,12 @@ func RateLimitMiddleware(next http.Handler) http.Handler {
 		next.ServeHTTP(w, r)
 	})
 }
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Njk2MzYxODEsInN1YiI6InVzZXIxMjMifQ.tp5kWJ9SH4aU9wTTVI4sxNJKmNMqjAnoDghB2zV9AJk
+
+for i in {1..6}; do
+  echo "Request $i"
+  curl -i \
+    -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Njk2MzYxODEsInN1YiI6InVzZXIxMjMifQ.tp5kWJ9SH4aU9wTTVI4sxNJKmNMqjAnoDghB2zV9AJk" \
+    http://localhost:8080/users
+done
